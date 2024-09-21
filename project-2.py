@@ -1,3 +1,14 @@
+"""
+    Study Group: Standard Deviants 
+    Names: Niranjan Ravichandran
+           Arjun Venkat
+           Sanjith Chockan
+           Akshay Jagadeesh
+           Nikita Sanjay khachane
+           Nikita Ramachandran
+    Language: Python 
+    Version: 3.11.4
+"""
 import numpy as np
 
 # Read and store the data from the text file
