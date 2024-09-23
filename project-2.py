@@ -59,7 +59,7 @@ def find_parameters_sample(datapoints):
     min_value = min(datapoints)
     max_value = max(datapoints)
     mean = sum(datapoints) / length
-    variance = sum((x - mean) ** 2 for x in datapoints) / (length-1)  # N is used for population variance
+    variance = sum((x - mean) ** 2 for x in datapoints) / (length-1)  # N-1 is used for sample variance
     std_dev = variance ** 0.5
 
     # Calculate quartiles, interquartile range, and outliers
