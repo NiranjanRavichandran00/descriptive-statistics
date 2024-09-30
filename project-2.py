@@ -110,5 +110,13 @@ find_parameters(datapoints)
 #sample of 1/1000 the size
 sample_1000th = generate_sample(len(datapoints)/1000, datapoints)
 find_parameters_sample(sample_1000th)
+print("------------------------------")
+#sample of 1/100 the size
+sample_100th = generate_sample(len(datapoints)/100, datapoints)
+find_parameters_sample(sample_100th)
+print("------------------------------")
+#sample of 1/10 the size
+sample_10th = generate_sample(len(datapoints)/10, datapoints)
+find_parameters_sample(sample_10th)
 
 
